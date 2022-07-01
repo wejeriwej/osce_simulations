@@ -1,0 +1,51 @@
+body {
+    
+    margin: 0;
+    /*font-family: sans-serif;*/
+    font-family: Shanti;
+    text-align: center;
+    /*background-color: slategray*/
+    background-color: rgb(125, 141, 157)
+}
+p {
+    color: white;
+    font: shanti;
+    font-size: 1.4em;
+    margin: 20px;
+}
+
+img {
+    margin: 60px 0 30px 0;
+    width: 250px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border: black;
+    border-color:black;
+    border-radius: 10px;
+    font-family: Shanti;
+    text-align: center;
+    font-size: 1.7em;
+    border: 1px solid black;
+    background-color: rgb(137, 137, 95);
+    color: black;
+    width: 200px;
+}
+input:hover {
+    background-color: rgb(137, 148, 120);
+    cursor: pointer;
+}
+
+/*#second_page {
+    background-color: rgb(137, 137, 95);
+    color: black;
+    width: 200px;
+}
+
+#second_page:hover {
+    background-color: rgb(137, 148, 120);
+    cursor: pointer;
+}*/
