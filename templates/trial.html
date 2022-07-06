@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block head %}
+Case 1
+{% endblock %}
+
+{% block body %}
+
+{%  for message in get_flashed_messages() %}
+<p>{{message}}</p>
+{% endfor %}
+
+<form action="recording" method="post">
+    <p>Start speaking after you press the button:</p>
+    <br>    
+    <input type="submit" value="START" id="recording">
+    <p>(Say 'stop the consultation' to end the consultation)</p>
+</form>
+
+<form action="stop" method="post">
+    <input type="submit" value="STOP" id="stop">
+    <p>(Press the STOP button when you'vefinished the consultation)</p>
+</form>
+{% endblock %}
